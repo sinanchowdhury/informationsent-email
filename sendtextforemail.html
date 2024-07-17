@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <div class="form-content">
+        <Legend>Message Me</Legend>
+
+        <input type="hidden" name="access_key" value="a86b8ef8-beaf-4597-8dc6-57ab7bde376d">
+        <input type="hidden" name="redirect" value="http://127.0.0.1:5500/thankyou.html">
+
+        <div class="name">
+        <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+
+        <div class="email">
+        <input type="email" name="email" placeholder="your email" required >
+        </div>
+
+        <div class="msg">
+        <input type="text" name="Message" placeholder="Your Messgae">
+        </div>
+
+        <button type="submit">Submit</button>
+        </div>
+        </form>
+</body>
+</html>
